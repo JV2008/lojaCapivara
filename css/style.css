@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-color: bisque;
+    
+}
+
+
+
+
+.menu{
+    background-color: rgb(105, 50, 16);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+    height: 100px;    
+}
+.menu img{
+    display: flex;
+    width: 100px;
+    height: 90px;
+
+}
+.menu h1{
+    font-size: 1.25rem;
+    font-style: normal;
+    background-color: rgb(105, 50, 26);
+    color: white;
+}
+.logo img{
+height: 100px;
+width: 100px;
+}
+.promocoes {
+    margin-top: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+}
+
+.promocoes img{
+    width: 400px;
+    height: 200px;
+}
+.Adidas{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+ }  
+ .Adidas img{
+    width: 300px;
+    height: 250px;
+ }
+
+.produtos{
+    margin-top: 100px;
+    display: flex;
+    width: 450px;
+    height: 500px;
+    align-items: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    gap: 25px;
+    margin-left: 2px;
+    margin-right: 2px;
+    text-align: center;
+    background-color: #F0F0F0;
+    flex-direction: column;
+}
+.produtos p{
+    flex-wrap: wrap;
+    font-size: 1rem;
+}
+.produtos img{
+    width: 350px;
+    height: auto;
+    margin-top: 15px;
+    margin-bottom: 19px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+
+.btn{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 78dvh;
+    border-radius: 30px;
+    height: 100px;
+    width: 300px;
+    background-color: #f0f0f0;
+    text-decoration: none;
+    font-size: 2rem;
+    flex-direction: column;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 30px;
+}
+
+.produtos:hover {
+scale: 1.1;
+}
+
+.btn:hover{
+    scale: 1.1;
+    background-color: black;
+    color: red;
+}
